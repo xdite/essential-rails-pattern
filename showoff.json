@@ -5,14 +5,9 @@
   {"section":"bad_code"},
   {"section":"mvc"},
   {"section":"organize"},
-  {"section":"bundles"},
-  {"section":"branch_manage"},
-  {"section":"tracking"},
-  {"section":"new_stuff"},
-  {"section":"replace"},
-  {"section":"rerere"},
-  {"section":"cherry"},
-  {"section":"customizing_git"},
-  {"section":"hub"},
-  {"section":"final"}
+  {"section":"our_way_to_orgnize"},
+  {"section":"useful_tips"},
+  {"section":"performance_tips"},
+  {"section":"conclusion"},
+  {"section":"reference"}
 ]
