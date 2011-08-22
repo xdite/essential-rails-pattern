@@ -1,0 +1,18 @@
+[
+  {"section":"title"},
+  {"section":"about_me"},
+  {"section":"agenda"},
+  {"section":"bad_code"},
+  {"section":"mvc"},
+  {"section":"describe"},
+  {"section":"bundles"},
+  {"section":"branch_manage"},
+  {"section":"tracking"},
+  {"section":"new_stuff"},
+  {"section":"replace"},
+  {"section":"rerere"},
+  {"section":"cherry"},
+  {"section":"customizing_git"},
+  {"section":"hub"},
+  {"section":"final"}
+]

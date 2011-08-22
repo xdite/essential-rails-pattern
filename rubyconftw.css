@@ -1,0 +1,14 @@
+body, #preso, .slide {
+  background-color: black;
+  color: white;
+  border: none;
+  margin: none;
+}
+
+.left {
+  text-align: left;
+}
+
+.left.bullets ul li{
+  text-align: left;
+}
