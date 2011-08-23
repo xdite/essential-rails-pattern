@@ -1,4 +1,4 @@
-!SLIDE bullets incremental left
+!SLIDE bullets incremental left aboutme
 
 # About Me #
 
@@ -7,8 +7,12 @@
 * http://gplus.to/xdite
 * xdite@techbang.com.tw
 
-!SLIDE 
+!SLIDE center
 
-# T 客邦
+<div class="logo">
+  <img src="techbang-logo.png" />
+</div>
 
-## Lead Developer 兼 Manager
+### Lead Developer 兼 Manager
+
+

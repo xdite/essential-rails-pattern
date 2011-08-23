@@ -1,0 +1,54 @@
+body, #preso, .slide {
+  // background-color: rgb(0,47,73); 
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.left {
+  text-align: left;
+}
+
+.left.bullets ul li{
+  text-align: left;
+}
+
+#spaghetti{
+  margin-top: 30px;
+  img{
+    width: 350px;
+    height: 350px;
+  }
+}
+
+.bullets{
+  li { font-size: 36px; padding: 10px 20px 10px 40px; line-height: 1.2em; }
+  li:before { content: url("/image/ruby.png"); padding: 10px 20px 10px 10px; }
+  li ul { padding-top: 20px;}
+  li li { font-size: 24px; padding: 10px;}
+  li li:before { content: ''; }
+  pre + h2 { padding-top: 36px; }
+}
+
+.correct{
+  color: green;
+}
+
+.wrong{
+  color: red;
+}
+
+.code{
+
+  pre{
+    font-size: 2em;
+    line-height: 1.5em;
+  }
+}
+
+div.image{
+  text-align:center;
+}
+
+
+
