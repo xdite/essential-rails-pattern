@@ -1,8 +1,8 @@
 !SLIDE
 
-# 讓我們來幾招吧
+## 讓我們來學幾招整理術吧
 
-!SLIDE bullets incremental left
+!SLIDE bullets left
 
 # Agenda
 

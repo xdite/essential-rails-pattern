@@ -31,13 +31,80 @@
 !SLIDE code
 # LOGIC IN VIEW
 
-!SLIDE
-# 在 Controller 裡處理資料
+### 錯誤
+<div class="wrong">
+  <pre>
+  &lt;% if current_user &amp;&amp; current_user == post.user %&gt;
+    &lt;%= link_to(&quot;Edit&quot;, edit_post_path(post))%&gt;
+  &lt;% end %&gt;
+  </pre>
+</div>
+
+### 正確
+
+<div class="correct">
+  <pre>
+    &lt;% if editable?(post) %&gt;
+      &lt;%= link_to(&quot;Edit&quot;, edit_post_path(post))%&gt;
+    &lt;% end %&gt;
+  </pre>
+</div>
+
 
 !SLIDE
+## 在 Controller 裡處理資料
 
-# 在 Model 裡寫 view code
+### 錯誤
 
+<div class="wrong">
+  <pre>
+     def checkout
+       book = Book.find(params[:id])
+       current_user.balance -= book.price
+       curremt_user.save!
+       redirect_to account_path
+     end
+  </pre>
+</div>
+
+### 正確
+
+<div class="correct">
+  <pre>
+    def checkout
+       book = Book.find(params[:id])
+       current_user.purchase(book)
+       redirect_to account_path
+    end   
+  </pre>
+</div>
+
+!SLIDE
+
+## 在 Model 裡寫 view code
+
+### 錯誤
+
+<span class="filename"> app/models/post.rb</span>
+
+<div class="wrong smaller">
+  <pre>
+     def tag_list_for_welcome_page
+        tags.maps {|tag| "&lt;span&gt; tag.name &lt;/span&gt;" }.join(" / ")
+     end
+  </pre>
+</div>
+
+### 正確
+
+<span class="filename"> app/helpers/post_helper.rb</span>
+<div class="correct smaller">
+  <pre>
+    def tag_list(tags)
+      tags.map { |tag| content_tag(:span, tag.name ) }.join(" / ")
+    end   
+  </pre>
+</div>
 
 !SLIDE
 

@@ -38,17 +38,23 @@ body, #preso, .slide {
   color: red;
 }
 
-.code{
+span.filename{
+  font-size: 1.1em;
+  padding: 10px 0px 20px 40px ;
+  display: block;
+}
 
+.code{
   pre{
     font-size: 2em;
     line-height: 1.5em;
   }
 }
 
+.smallest{
+  font-size: 60%;
+}
+
 div.image{
   text-align:center;
 }
-
-
-
