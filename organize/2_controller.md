@@ -30,7 +30,7 @@
 
 !SLIDE
 
-### 類似的 method 在不同 controller 出現第二次出現請注意 
+### 相同的 method 在不同 controller 出現第二次出現請注意 
 
 !SLIDE
 
@@ -105,3 +105,11 @@
 # MVP
 
 ## TODO : Explain
+
+!SLIDE
+
+* 善用 model callbacks
+  - after_save :update_search_index
+
+* 使用 Observer
+  - TODO : example

@@ -5,9 +5,9 @@
   {"section":"bad_code"},
   {"section":"mvc"},
   {"section":"organize"},
-  {"section":"our_way_to_orgnize"},
+  {"section":"abusing_rails"},
+  {"section":"our_way_to_organize"},
   {"section":"useful_tips"},
-  {"section":"performance_tips"},
   {"section":"conclusion"},
   {"section":"reference"}
 ]

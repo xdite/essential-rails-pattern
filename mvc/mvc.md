@@ -32,6 +32,7 @@
 # LOGIC IN VIEW
 
 ### 錯誤
+
 <div class="wrong">
   <pre>
   &lt;% if current_user &amp;&amp; current_user == post.user %&gt;
@@ -43,7 +44,7 @@
 ### 正確
 
 <div class="correct">
-  <pre>
+  <pre >
     &lt;% if editable?(post) %&gt;
       &lt;%= link_to(&quot;Edit&quot;, edit_post_path(post))%&gt;
     &lt;% end %&gt;
