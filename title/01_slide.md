@@ -1,4 +1,4 @@
 !SLIDE 
 # Essential Rails Design Pattern #
 
-## TODO
+## write maintainable Rails code

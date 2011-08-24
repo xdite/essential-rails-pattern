@@ -11,4 +11,3 @@
 * Model
 * Routing
 * Advanced: Meta Programming
-* Advanced: MiddleWare

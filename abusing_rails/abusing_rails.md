@@ -123,3 +123,7 @@
 * includes
 * find_in_batch
 
+!SLIDE code
+## abusing helper 
+
+TODO

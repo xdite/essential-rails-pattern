@@ -6,10 +6,23 @@
 
 # Meta Programming
 
-## define_method
+*  define_method
 
-### TODO
+<div class="smaller">
+  <pre class="sh_ruby">
+    ["maple", "wow", "diablo3"].each do |key,value|
+      define_method("#{key}_game") do
+        find_by_name(value)
+      end
+    end
+  </pre>
+</div>
 
-## method_missing
+*  method_missing
 
-### TODO
+<div class="smaller">
+  <pre class="sh_ruby">
+    find_by_post_id_and_user_id
+    find_or_initialize_by_ooo_and_xxx
+  </div>
+</div>

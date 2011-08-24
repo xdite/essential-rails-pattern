@@ -139,7 +139,7 @@
 
 !SLIDE
 
-### attribute 超過 10 個請注意
+## column 超過 10 個請注意
 
 !SLIDE
 
