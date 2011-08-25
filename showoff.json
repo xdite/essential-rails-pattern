@@ -5,7 +5,8 @@
   {"section":"bad_code"},
   {"section":"mvc"},
   {"section":"organize"},
-  {"section":"abusing_rails"},
   {"section":"our_way_to_organize"},
+  {"section":"abusing_rails"},
+  {"section":"reinvent_helpers"},
   {"section":"reference"}
 ]

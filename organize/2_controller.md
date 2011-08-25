@@ -96,7 +96,7 @@
 * refactor 到 model
    - 「業務邏輯相關的資料」 
    - 「對資料的處理方法」
-* refactor 到 presentor
+* refactor to presentor
   - 不是什麼都需要扔 model
   - Model - View - Presenter
 
@@ -104,12 +104,53 @@
 
 # MVP
 
-## TODO : Explain
+!SLIDE bullets left
 
-!SLIDE
+## MVP 
 
-* 善用 model callbacks
-  - after_save :update_search_index
+* UI 高度依賴業務邏輯 
+* 業務過於複雜
+* 僅在該 View 使用一次，且不屬於 Model 的基礎 method 
+* 不應該放在 Controller / Model，而應該放在 Presenter
+* 業務邏輯抽出來放在 Presenter，可以隨意改動 UI
 
-* 使用 Observer
-  - TODO : example
+!SLIDE 
+
+## 儲存之前、儲存之後需要 do something
+
+!SLIDE code
+
+## BAD SMELL
+
+<div class="wrong">
+  <pre>
+      if @post.save
+        @post.delay.update_search_index
+      end
+  </pre>
+</div>
+
+!SLIDE code
+
+## 善用 model callbacks
+<div class="correct">
+  <pre>
+    class Post &lt; ActiveRecord::Base
+      after_save :update_search_index
+    end
+  </pre>
+</div>
+
+## 或者是 Observer
+
+<div class="correct">
+  <pre>
+    class PostObserver &lt; ActiveRecord::Observer
+      observ :post
+      
+      def after_save(post)
+        update_search_index
+      end
+    end
+  </pre>
+</div>

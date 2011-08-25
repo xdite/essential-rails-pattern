@@ -4,7 +4,7 @@
 
 !SLIDE code
 
-## extract to module
+## Extract to Module
 
 <div class="correct">
   <pre>

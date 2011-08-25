@@ -38,8 +38,9 @@
 * 不適當的 Coding Style
 * 隨意亂扔程式碼
 * 到處複製貼上程式碼
-* 重複發明輪子
 * 濫用 Framework / ORM
+* 重複發明輪子
+
 
 !SLIDE
 
@@ -72,6 +73,47 @@
 
 # 能夠不縮寫就不縮寫
 ### 真的太長的 method name ( 3個詞以上)，使用 module 或 namespace 
+
+!SLIDE code left
+
+# 無法了解意義的變數
+
+## 錯誤 
+
+<div class="wrong">
+  <pre>
+      case game_type
+      
+      when "1"
+        # do_something_x
+      when "2"
+        # do_something_y
+      when "3"
+        # do_something_z
+      else
+        # redirect_to root_path
+      end
+  </pre>
+</div>
+
+!SLIDE code left
+
+## 正確
+
+<div class="correct">
+  <pre>
+      case game_type
+      when "rpg"
+        # do_somehting_x
+      when "strategy"
+        # do_something_y
+      when "fps"
+        # do_something_y
+      else
+        # redirect_to root_path
+      end
+  </pre>
+</div>
 
 !SLIDE
 
