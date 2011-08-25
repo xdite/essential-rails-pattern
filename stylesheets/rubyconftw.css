@@ -56,12 +56,12 @@ body, #preso, .slide {
 
 /* line 33, ../sass/rubyconftw.scss */
 .correct {
-  color: green;
+  color: #00FF00;
 }
 
 /* line 37, ../sass/rubyconftw.scss */
 .wrong {
-  color: red;
+  color: #FF0000;
 }
 
 /* line 41, ../sass/rubyconftw.scss */

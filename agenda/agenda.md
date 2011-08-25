@@ -2,7 +2,7 @@
 
 # 本日大綱
 
-* <del>其實你不會寫 Rails</del>
+* 為什麼 Code 會腐敗？
 * 無法維護的 Rails Code
 * 如何整理 Rails Code
 * Rails native mechanism

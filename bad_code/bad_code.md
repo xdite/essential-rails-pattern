@@ -1,6 +1,10 @@
 !SLIDE bullets incremental left
 
-# <del> 其實你不會寫 Rails </del>
+## 為什麼 Code 這麼容易腐敗？
+
+!SLIDE
+
+## <del> 其實大多數 Rails Developer 不會寫 Rails </del>
 
 !SLIDE bullets incremental left
 
