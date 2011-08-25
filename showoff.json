@@ -4,9 +4,12 @@
   {"section":"agenda"},
   {"section":"bad_code"},
   {"section":"mvc"},
+  {"section":"abusing_rails"},
+  {"section":"reinvent_wheels"},
   {"section":"organize"},
   {"section":"our_way_to_organize"},
-  {"section":"abusing_rails"},
-  {"section":"reinvent_helpers"},
-  {"section":"reference"}
+  {"section":"conclusion"},
+  {"section":"reference"},
+  {"section":"the_end"},
+  {"section":"advertise"}
 ]

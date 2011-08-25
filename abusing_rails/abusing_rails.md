@@ -1,6 +1,7 @@
 !SLIDE
 
 # 濫用 Rails 內建機制
+## 隱藏的炸彈
 
 !SLIDE code bullets left
 
