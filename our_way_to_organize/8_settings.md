@@ -1,7 +1,0 @@
-!SLIDE
-
-# Settings
-
-!SLIDE
-
-# SettingsLogic
