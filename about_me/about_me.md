@@ -1,4 +1,4 @@
-!SLIDE bullets incremental left aboutme
+!SLIDE bullets left aboutme
 
 # About Me #
 
