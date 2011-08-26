@@ -1,7 +1,7 @@
 !SLIDE
 
 # 重複發明輪子
-## 冗餘程式碼的主因
+## 冗餘程式碼的另一個原因
 
 !SLIDE bullets left smaller
 

@@ -7,3 +7,8 @@
 * 如何整理 Rails Code
 * Rails native mechanism
 * 使用 RubyGem 整理設計程式碼
+
+!SLIDE
+
+## http://bit.ly/rubyconftw-2011-xdite
+### 本 talk 網址

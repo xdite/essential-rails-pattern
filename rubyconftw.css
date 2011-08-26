@@ -1,1 +1,88 @@
-stylesheets/rubyconftw.css
+/* line 1, ../sass/rubyconftw.scss */
+body, #preso, .slide {
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+/* line 8, ../sass/rubyconftw.scss */
+.left {
+  text-align: left;
+}
+
+/* line 12, ../sass/rubyconftw.scss */
+.left.bullets ul li {
+  text-align: left;
+}
+
+/* line 16, ../sass/rubyconftw.scss */
+#spaghetti {
+  margin-top: 30px;
+}
+/* line 18, ../sass/rubyconftw.scss */
+#spaghetti img {
+  width: 350px;
+  height: 350px;
+}
+
+/* line 25, ../sass/rubyconftw.scss */
+.bullets li {
+  font-size: 36px;
+  padding: 10px 20px 10px 40px;
+  line-height: 1.2em;
+}
+/* line 26, ../sass/rubyconftw.scss */
+.bullets li:before {
+  content: url("/image/ruby.png");
+  padding: 10px 20px 10px 10px;
+}
+/* line 27, ../sass/rubyconftw.scss */
+.bullets li ul {
+  padding-top: 20px;
+}
+/* line 28, ../sass/rubyconftw.scss */
+.bullets li li {
+  font-size: 24px;
+  padding: 10px;
+}
+/* line 29, ../sass/rubyconftw.scss */
+.bullets li li:before {
+  content: '';
+}
+/* line 30, ../sass/rubyconftw.scss */
+.bullets pre + h2 {
+  padding-top: 36px;
+}
+
+/* line 33, ../sass/rubyconftw.scss */
+.correct {
+  color: #00FF00;
+}
+
+/* line 37, ../sass/rubyconftw.scss */
+.wrong {
+  color: #FF0000;
+}
+
+/* line 41, ../sass/rubyconftw.scss */
+span.filename {
+  font-size: 1.1em;
+  padding: 10px 0px 20px 40px;
+  display: block;
+}
+
+/* line 48, ../sass/rubyconftw.scss */
+.code pre {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
+/* line 54, ../sass/rubyconftw.scss */
+.smallest {
+  font-size: 60%;
+}
+
+/* line 58, ../sass/rubyconftw.scss */
+div.image {
+  text-align: center;
+}

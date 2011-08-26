@@ -103,6 +103,7 @@
 !SLIDE
 
 # MVP
+### Model - View - Presenter
 
 !SLIDE bullets left
 
