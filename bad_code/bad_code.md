@@ -34,7 +34,7 @@
 * PHP, .NET, JAVA coding tyle 
 * unfamiliar with Rails way
 
-!SLIDE bullets left
+!SLIDE bullets xleft
 
 # Common Antipatterns
 
@@ -281,7 +281,7 @@
 * Use 2 space indent, no tabs.
 * Use snake_case for methods.
 * Use CamelCase for classes and modules. 
-* Use SCREAMING_SNAKE_CASE for other constants.
+* Use SCREAMIN\_SNAKE\_CASE for other constants.
 
 !SLIDE bullets incremental left
 

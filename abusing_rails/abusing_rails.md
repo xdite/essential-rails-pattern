@@ -133,7 +133,7 @@
 * cache expensive operation
   - ex. counter_cache, memorize, cache
 * includes
-* find_in_batch
+* find\_in\_batch
 
 !SLIDE code
 ## abusing helper 
