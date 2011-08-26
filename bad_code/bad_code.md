@@ -25,7 +25,7 @@
   <img src="spaghetti.jpg" />
 </div>
 
-!SLIDE bullets incremental left
+!SLIDE bullets left
 
 # Spaghetti code 的成因
 
@@ -34,7 +34,7 @@
 * PHP, .NET, JAVA coding tyle 
 * unfamiliar with Rails way
 
-!SLIDE bullets incremental left
+!SLIDE bullets left
 
 # Common Antipatterns
 
