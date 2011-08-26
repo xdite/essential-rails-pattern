@@ -1,4 +1,4 @@
-!SLIDE bullets incremental left
+!SLIDE bullets left
 
 # 本日大綱
 
