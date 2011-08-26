@@ -4,6 +4,14 @@
 
 !SLIDE
 
+## Don't throw anything to model's constant !!
+
+<br><br><br>
+
+## Use yml settings or memorize method instead
+
+!SLIDE
+
 # SettingsLogic
 
 <div class="correct smaller">
