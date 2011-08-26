@@ -1,3 +1,7 @@
+!SLIDE
+
+# Why this talk?
+
 !SLIDE bullets left
 
 # 本日大綱
