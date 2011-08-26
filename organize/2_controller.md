@@ -115,6 +115,43 @@
 * 不應該放在 Controller / Model，而應該放在 Presenter
 * 業務邏輯抽出來放在 Presenter，可以隨意改動 UI
 
+!SLIDE smallest
+
+# Presenter
+
+<div class="correct">
+  <pre class="sh_ruby">
+    class Sites::ShowPresenter
+    
+      def hottest_topics
+        @hottest_topics = @site.topics.hottest.limit(10)
+      end
+
+      def recent_topics
+        @recent_topics = @site.topics.unhidden.recent(10)
+      end
+      
+    end
+  </pre>
+</div>
+
+!SLIDE smallest
+
+# Use presenter in controller
+<div class="correct">
+  <pre class="sh_ruby">
+    def show
+      @presenter = Sites::ShowPresenter.new(@site)
+      @headline_topic = @presenter.headline_topic
+      @categories =  @presenter.categories
+      @site_alias = @presenter.site_alias
+
+      add_breadcrumb @site.name, site_path(@site)
+      seo_meta_desc_keywords(@site)
+    end
+  </pre>
+</div>
+
 !SLIDE 
 
 ## 儲存之前、儲存之後需要 do something
