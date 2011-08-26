@@ -6,7 +6,7 @@
 
 ## <del> 其實大多數 Rails Developer 不會寫 Rails </del>
 
-!SLIDE bullets incremental left
+!SLIDE bullets left
 
 # 常見的 Rails Code
 
